@@ -6,7 +6,7 @@
 
   <artifactId>teststest</artifactId>
   <version>2.3</version>
-  <packaging>zip</packaging>
+  <packaging>war</packaging>
 
 
 
