@@ -12,7 +12,7 @@
 
 
 	<name>teststorm-test</name>
-	<url>http://maven.apache.org</url>
+	<url>http://www.manyjar.com/</url>
 
 	
 	
@@ -27,7 +27,7 @@
 	
 	<repository>
 		<id>third-party</id>
-		<url>https://repo.maven.apache.org/maven2</url>
+		<url>http://www.manyjar.com/</url>
 	</repository>
 </repositories>
 
@@ -39,7 +39,7 @@
 	
 	<pluginRepository>
 		<id>third-party</id>
-		<url>https://repo.maven.apache.org/maven2</url>
+		<url>http://www.manyjar.com/</url>
 	</pluginRepository>
 </pluginRepositories>
 
