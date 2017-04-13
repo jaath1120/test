@@ -22,13 +22,13 @@
 
  	<repository>
 		<id>private-repository</id>
-		<url>http://192.168.80.131:8086/artifactory/private-internal-repository</url>
+		<url>http://192.168.80.1:8089/artifactory/local</url>
 		<snapshots>
 			<enabled>false</enabled>
 		</snapshots>
 	</repository>
 	
-	<repository>
+<!--	<repository>
 		<id>third-party</id>
 		<url>http://192.168.80.131:8086/artifactory/third-party</url>
 		<releases>
@@ -37,25 +37,25 @@
 		<snapshots>  
 			<enabled>false</enabled>  
 		</snapshots>
-	</repository>
+	</repository>-->
 </repositories>
 
 <pluginRepositories>
 	<pluginRepository>
 		<id>private-repository</id>
-		<url>http://192.168.80.131:8086/artifactory/private-internal-repository</url>
+		<url>http://192.168.80.1:8089/artifactory/local</url>
 		<snapshots>  
 			<enabled>false</enabled>  
 		</snapshots>
 	</pluginRepository>
 	
-	<pluginRepository>
+<!--	<pluginRepository>
 		<id>third-party</id>
 		<url>http://192.168.80.131:8086/artifactory/third-party</url>
 		<releases>
 			<enabled>false</enabled>
 		</releases>
-	</pluginRepository>
+	</pluginRepository>-->
 </pluginRepositories>
 
 

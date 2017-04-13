@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="cn.dataguru.storm.AppTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="cn.dataguru.storm.AppTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\program files (x86)\Java\jdk1.8.0_92\jre\bin"/>
     <property name="java.vm.version" value="25.92-b14"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="F:\test\aaa\Trunk\teststorm"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\git\test-github\teststorm"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\test\aaa\Trunk\teststorm"/>
+    <property name="user.dir" value="F:\git\test-github\teststorm"/>
     <property name="java.runtime.version" value="1.8.0_92-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\program files (x86)\Java\jdk1.8.0_92\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\program files (x86)\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\program files (x86)\Java\jdk1.8.0_92\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files (x86)\WANdisco\Subversion\Apache2\bin;D:\Program Files (x86)\WANdisco\Subversion;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;D:\Subversion\bin;D:\program files (x86)\apache-maven-3.3.9\bin;D:\program files (x86)\Java\jdk1.8.0_92\bin;D:\program files (x86)\TortoiseSVN\bin;D:\program files (x86)\sonar-scanner-2.6.1\bin;D:\program files (x86)\sonar-scanner-2.6.1\bin;D:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;D:\已安装软件\Codec;D:\已安装软件;."/>
+    <property name="java.library.path" value="D:\program files (x86)\Java\jdk1.8.0_92\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\program files (x86)\Java\jdk1.8.0_92\bin;D:\Program Files (x86)\WANdisco\Subversion\Apache2\bin;D:\Program Files (x86)\WANdisco\Subversion;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;D:\Subversion\bin;D:\program files (x86)\apache-maven-3.3.9\bin;D:\program files (x86)\TortoiseSVN\bin;D:\program files (x86)\sonar-scanner-2.6.1\bin;D:\program files (x86)\sonar-scanner-2.6.1\bin;D:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;D:\Program Files\autobuild\apache-ant-1.8.1\bin;D:\已安装软件\Codec;D:\已安装软件;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,5 +63,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="cn.dataguru.storm.AppTest" name="testApp" time="0.005"/>
+  <testcase classname="cn.dataguru.storm.AppTest" name="testApp" time="0.003"/>
 </testsuite>
