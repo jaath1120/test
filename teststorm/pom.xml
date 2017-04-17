@@ -3,8 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>storm.test</groupId>
-
-
   <artifactId>teststest</artifactId>
   <version>2.6</version>
   <packaging>war</packaging>
@@ -17,31 +15,31 @@
 	
 	
 
-
- <repositories>
-
- 	<repository>
-		<id>private-repository</id>
-		<url>http://192.168.80.1:8089/artifactory/local</url>
-	</repository>
-	
-	<repository>
-		<id>third-party</id>
-		<url>http://www.manyjar.com/</url>
-	</repository>
-</repositories>
-
-<pluginRepositories>
-	<pluginRepository>
-		<id>private-repository</id>
-		<url>http://192.168.80.1:8089/artifactory/local</url>
-	</pluginRepository>
-	
-	<pluginRepository>
-		<id>third-party</id>
-		<url>http://www.manyjar.com/</url>
-	</pluginRepository>
-</pluginRepositories>
+      <repositories>
+        <repository>
+          <id>private-internal-repository</id>
+          <name>local private repository</name>
+          <url>http://192.168.80.1:8089/artifactory/private-internal-repository</url>
+        </repository>
+		<repository>
+          <id>third-party</id>
+          <name>third-party private repository</name>
+          <url>http://192.168.80.1:8089/artifactory/third-party</url>
+        </repository>
+      </repositories>
+	  
+      <pluginRepositories>
+        <pluginRepository>
+          <id>private-internal-repository</id>
+          <name>local private plugin repository</name>
+          <url>http://192.168.80.1:8089/artifactory/private-internal-repository</url>
+        </pluginRepository>
+		<pluginRepository>
+          <id>third-party</id>
+          <name>third-party private plugin repository</name>
+          <url>http://192.168.80.1:8089/artifactory/third-party</url>
+        </pluginRepository>
+      </pluginRepositories>
 
 
 
@@ -49,7 +47,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-<!--
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -64,11 +62,12 @@
 			<version>1.2.4</version>
 		</dependency>
 
-		<dependency>
+<!--		<dependency>
 			<groupId>amqp-client</groupId>
 			<artifactId>amqp-client</artifactId>
 			<version>3.6.0</version>
 		</dependency>
+-->		
  		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongo-java-driver</artifactId>
@@ -127,13 +126,13 @@
 		<version>1.2.2</version>
 	</dependency>
 
-
+<!--
 	<dependency>
 		<groupId>mysql-connector-java</groupId>
 		<artifactId>mysql-connector-java</artifactId>
 		<version>5.1.36</version>
 	</dependency>
-
+-->
 
 	<dependency>
 		<groupId>be.hikage</groupId>
@@ -142,7 +141,7 @@
 	</dependency>
 
 
-  </dependencies>-->
+  </dependencies>
 </project>
 
 
